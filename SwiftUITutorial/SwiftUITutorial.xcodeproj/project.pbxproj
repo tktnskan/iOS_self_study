@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C02C36326C3445C0026005B /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C36226C3445C0026005B /* MemoryGame.swift */; };
 		5C02C36526C3465B0026005B /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02C36426C3465B0026005B /* EmojiMemoryGame.swift */; };
+		5C2DCBAD26F2DC7E00DF5673 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2DCBAC26F2DC7E00DF5673 /* Extension.swift */; };
 		F7551CE926BA125A00E1FAB5 /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7551CE826BA125A00E1FAB5 /* SwiftUITutorialApp.swift */; };
 		F7551CEB26BA125A00E1FAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7551CEA26BA125A00E1FAB5 /* ContentView.swift */; };
 		F7551CED26BA125B00E1FAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7551CEC26BA125B00E1FAB5 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		5C02C36226C3445C0026005B /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		5C02C36426C3465B0026005B /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		5C2DCBAC26F2DC7E00DF5673 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F7551CE526BA125A00E1FAB5 /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7551CE826BA125A00E1FAB5 /* SwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		F7551CEA26BA125A00E1FAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F7551CEC26BA125B00E1FAB5 /* Assets.xcassets */,
 				F7551CF126BA125B00E1FAB5 /* Info.plist */,
 				F7551CEE26BA125B00E1FAB5 /* Preview Content */,
+				5C2DCBAC26F2DC7E00DF5673 /* Extension.swift */,
 			);
 			path = SwiftUITutorial;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2DCBAD26F2DC7E00DF5673 /* Extension.swift in Sources */,
 				5C02C36326C3445C0026005B /* MemoryGame.swift in Sources */,
 				F7551CEB26BA125A00E1FAB5 /* ContentView.swift in Sources */,
 				F7551CE926BA125A00E1FAB5 /* SwiftUITutorialApp.swift in Sources */,

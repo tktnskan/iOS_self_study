@@ -9,15 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
 
-    var viewModel: EmojiMemoryGame
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         VStack {
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
-                    ForEach(viewModel.cards, id: \.self) { card in
-                        CardView(content: card.content)
+                    ForEach(viewModel.cards) { card in
+                        CardView(card: card)
                             .aspectRatio(2/3, contentMode: .fit)
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
                     }
                 }
             }
@@ -39,12 +42,8 @@ struct CardView: View {
             if card.isFaceUp {
                 shape.fill().foregroundColor(.white)
                 shape.strokeBorder(lineWidth: 3)
-                    .rotation3DEffect(isFaceUp ? Angle(degrees: 0):Angle(degrees: 180), axis: (x: CGFloat(0), y: CGFloat(25), z: CGFloat(0)))
-                    .animation(.default)
-                    .onTapGesture {
-                        isFaceUp.toggle()
-                    }
-                Text(content).font(.largeTitle)
+                Text(card.content)
+                    .font(.largeTitle)
             } else {
                 shape.fill()
             }
