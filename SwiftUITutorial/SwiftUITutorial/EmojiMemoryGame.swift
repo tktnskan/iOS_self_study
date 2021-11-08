@@ -2,7 +2,7 @@
 //  EmojiMemoryGame.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/08/11.
+//  Created by Jinyung Yoon on 2021/08/11.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  TestDispatchGroup
 //
-//  Created by GJC03280 on 2021/11/08.
+//  Created by Jinyung Yoon on 2021/11/08.
 //
 
 import UIKit

@@ -2,7 +2,7 @@
 //  Extension.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/09/16.
+//  Created by Jinyung Yoon on 2021/09/16.
 //
 
 import Foundation
