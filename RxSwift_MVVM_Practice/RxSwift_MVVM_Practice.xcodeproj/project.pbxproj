@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3C141F4A1F0879B944BE2BAB /* Pods_RxSwift_MVVM_PracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8973162693576BD87FD8B02A /* Pods_RxSwift_MVVM_PracticeTests.framework */; };
 		574EE51D1AC061DE6E1AA583 /* Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24423E7F8E2AC123A0FC0698 /* Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework */; };
+		5CA037E6274C7A2400D8AB3D /* Int+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037E5274C7A2400D8AB3D /* Int+ext.swift */; };
+		5CA037E9274C7A8D00D8AB3D /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */; };
+		5CA037EB274C7C3400D8AB3D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037EA274C7C3400D8AB3D /* Menu.swift */; };
+		5CA037EE274C7E3500D8AB3D /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */; };
 		5CF2C5EB2745D3B000EC0698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EA2745D3B000EC0698 /* AppDelegate.swift */; };
 		5CF2C5ED2745D3B000EC0698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EC2745D3B000EC0698 /* SceneDelegate.swift */; };
 		5CF2C5EF2745D3B000EC0698 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EE2745D3B000EC0698 /* MenuVC.swift */; };
@@ -20,7 +24,6 @@
 		5CF2C61C2746064F00EC0698 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C61B2746064F00EC0698 /* OrderVC.swift */; };
 		5CF2C61F2746066300EC0698 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C61E2746066300EC0698 /* APIService.swift */; };
 		5CF2C6222746068300EC0698 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C6212746068300EC0698 /* MenuItemCell.swift */; };
-		5CF2C6262746082000EC0698 /* OrderCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C6252746082000EC0698 /* OrderCountView.swift */; };
 		D2FC9B02E516F8631FA004FA /* Pods_RxSwift_MVVM_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A64F3373E4D5E87509F8D0 /* Pods_RxSwift_MVVM_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,10 @@
 		00E94B1281333AC4D1659F9E /* Pods-RxSwift_MVVM_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_MVVM_Practice.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_MVVM_Practice/Pods-RxSwift_MVVM_Practice.release.xcconfig"; sourceTree = "<group>"; };
 		24423E7F8E2AC123A0FC0698 /* Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D9B798B6FADAA280D5220F /* Pods-RxSwift_MVVM_PracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_MVVM_PracticeTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_MVVM_PracticeTests/Pods-RxSwift_MVVM_PracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CA037E5274C7A2400D8AB3D /* Int+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+ext.swift"; sourceTree = "<group>"; };
+		5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		5CA037EA274C7C3400D8AB3D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
 		5CF2C5E72745D3B000EC0698 /* RxSwift_MVVM_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_MVVM_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF2C5EA2745D3B000EC0698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CF2C5EC2745D3B000EC0698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +67,6 @@
 		5CF2C61B2746064F00EC0698 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
 		5CF2C61E2746066300EC0698 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		5CF2C6212746068300EC0698 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
-		5CF2C6252746082000EC0698 /* OrderCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCountView.swift; sourceTree = "<group>"; };
 		836A9C1AC64EFFD1507B8104 /* Pods-RxSwift_MVVM_PracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_MVVM_PracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_MVVM_PracticeTests/Pods-RxSwift_MVVM_PracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8973162693576BD87FD8B02A /* Pods_RxSwift_MVVM_PracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_PracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FD3EFD64D94C1EA012A067 /* Pods-RxSwift_MVVM_Practice-RxSwift_MVVM_PracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_MVVM_Practice-RxSwift_MVVM_PracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift_MVVM_Practice-RxSwift_MVVM_PracticeUITests/Pods-RxSwift_MVVM_Practice-RxSwift_MVVM_PracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +113,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5CA037E4274C7A1100D8AB3D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5CA037E5274C7A2400D8AB3D /* Int+ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5CA037E7274C7A8000D8AB3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */,
+				5CA037EA274C7C3400D8AB3D /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CA037EC274C7C5000D8AB3D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		5CF2C5DE2745D3B000EC0698 = {
 			isa = PBXGroup;
 			children = (
@@ -132,7 +163,10 @@
 		5CF2C5E92745D3B000EC0698 /* RxSwift_MVVM_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				5CA037E4274C7A1100D8AB3D /* Utils */,
 				5CF2C61D2746065500EC0698 /* Services */,
+				5CA037E7274C7A8000D8AB3D /* Model */,
+				5CA037EC274C7C5000D8AB3D /* ViewModel */,
 				5CF2C61A2746062700EC0698 /* View */,
 				5CF2C5EA2745D3B000EC0698 /* AppDelegate.swift */,
 				5CF2C5EC2745D3B000EC0698 /* SceneDelegate.swift */,
@@ -190,7 +224,6 @@
 			children = (
 				5CF2C6202746066A00EC0698 /* Cell */,
 				5CF2C5EE2745D3B000EC0698 /* MenuVC.swift */,
-				5CF2C6252746082000EC0698 /* OrderCountView.swift */,
 			);
 			path = "Menu View";
 			sourceTree = "<group>";
@@ -476,9 +509,12 @@
 				5CF2C61F2746066300EC0698 /* APIService.swift in Sources */,
 				5CF2C61C2746064F00EC0698 /* OrderVC.swift in Sources */,
 				5CF2C6222746068300EC0698 /* MenuItemCell.swift in Sources */,
+				5CA037EB274C7C3400D8AB3D /* Menu.swift in Sources */,
 				5CF2C5EB2745D3B000EC0698 /* AppDelegate.swift in Sources */,
-				5CF2C6262746082000EC0698 /* OrderCountView.swift in Sources */,
+				5CA037E9274C7A8D00D8AB3D /* MenuItem.swift in Sources */,
 				5CF2C5ED2745D3B000EC0698 /* SceneDelegate.swift in Sources */,
+				5CA037EE274C7E3500D8AB3D /* MenuListViewModel.swift in Sources */,
+				5CA037E6274C7A2400D8AB3D /* Int+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

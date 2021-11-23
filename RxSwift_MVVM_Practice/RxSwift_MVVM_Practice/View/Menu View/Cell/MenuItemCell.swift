@@ -16,6 +16,8 @@ class MenuItemCell: UITableViewCell {
     let title = UILabel()
     let count = UILabel()
     
+    var onChange: ((Int) -> Void)?
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         configureUI()
@@ -97,10 +99,10 @@ class MenuItemCell: UITableViewCell {
     }
     
     @objc func didTouchedPlus() {
-        
+        onChange?(+1)
     }
     
     @objc func didTouchedMinus() {
-        
+        onChange?(-1)
     }
 }
