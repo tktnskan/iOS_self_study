@@ -7,11 +7,10 @@
 
 import Foundation
 import RxSwift
-import RxCocoa
 
 class MenuListViewModel {
     
-    var menuObservable = BehaviorSubject<[Menu]>(value: [])
+    var menuObservable = BehaviorSubject<[MenuItem]>(value: [])
     
     lazy var itemsCount = menuObservable.map {
         $0.map { $0.count }.reduce(0, +)
@@ -21,9 +20,7 @@ class MenuListViewModel {
     }
     
     init() {
-        APIService.fetchAllMenusRx()
-            .map{ $0 }
-        menuObservable.onNext(menus)
+       
     }
     
     func clearAllItemSelections() {

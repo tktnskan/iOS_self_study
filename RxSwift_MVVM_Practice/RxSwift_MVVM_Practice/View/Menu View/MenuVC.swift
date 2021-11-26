@@ -131,6 +131,19 @@ class MenuVC: UIViewController {
         return btn
     }
     
+//    func updateTotalInfo() {
+//        let allCount = menuItems.map { $0.count }.reduce(0, +)
+//        let allPrice = menuItems.map { $0.menu.price * $0.count }.reduce(0, +)
+//        itemCountLabel.text = "\(allCount)"
+//        totalPrice.text = allPrice.currencyKR()
+//    }
+//    
+//    func showAlert(_ title: String, _ message: String) {
+//        let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
+//        alertVC.addAction(UIAlertAction(title: "OK", style: .default))
+//        present(alertVC, animated: true, completion: nil)
+//    }
+    
     @objc func didTouchedClear() {
         viewModel.clearAllItemSelections()
     }
@@ -167,8 +180,8 @@ class MenuVC: UIViewController {
         
         viewModel.itemsCount
             .map { "\($0)" }
-            .observe(on: MainScheduler.instance)
-            .bind(to: itemCountLabel.rx.text)
+            .asDriver(onErrorJustReturn: "")
+            .drive(itemCountLabel.rx.text)
             .disposed(by: disposeBag)
         
         viewModel.totalPrice

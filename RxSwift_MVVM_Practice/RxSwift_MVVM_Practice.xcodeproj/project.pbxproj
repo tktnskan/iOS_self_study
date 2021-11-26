@@ -11,8 +11,11 @@
 		574EE51D1AC061DE6E1AA583 /* Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24423E7F8E2AC123A0FC0698 /* Pods_RxSwift_MVVM_Practice_RxSwift_MVVM_PracticeUITests.framework */; };
 		5CA037E6274C7A2400D8AB3D /* Int+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037E5274C7A2400D8AB3D /* Int+ext.swift */; };
 		5CA037E9274C7A8D00D8AB3D /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */; };
-		5CA037EB274C7C3400D8AB3D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037EA274C7C3400D8AB3D /* Menu.swift */; };
 		5CA037EE274C7E3500D8AB3D /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */; };
+		5CA0FBD8274DD023008E5AF5 /* UITextView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0FBD7274DD023008E5AF5 /* UITextView+ext.swift */; };
+		5CA0FBDA274DD0C1008E5AF5 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0FBD9274DD0C1008E5AF5 /* UIViewController+ext.swift */; };
+		5CA0FBDD274DD1EB008E5AF5 /* MenuStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0FBDC274DD1EB008E5AF5 /* MenuStore.swift */; };
+		5CA0FBDF274DD7CA008E5AF5 /* ViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0FBDE274DD7CA008E5AF5 /* ViewMenu.swift */; };
 		5CF2C5EB2745D3B000EC0698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EA2745D3B000EC0698 /* AppDelegate.swift */; };
 		5CF2C5ED2745D3B000EC0698 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EC2745D3B000EC0698 /* SceneDelegate.swift */; };
 		5CF2C5EF2745D3B000EC0698 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5EE2745D3B000EC0698 /* MenuVC.swift */; };
@@ -50,8 +53,11 @@
 		28D9B798B6FADAA280D5220F /* Pods-RxSwift_MVVM_PracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_MVVM_PracticeTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_MVVM_PracticeTests/Pods-RxSwift_MVVM_PracticeTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CA037E5274C7A2400D8AB3D /* Int+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+ext.swift"; sourceTree = "<group>"; };
 		5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
-		5CA037EA274C7C3400D8AB3D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
+		5CA0FBD7274DD023008E5AF5 /* UITextView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+ext.swift"; sourceTree = "<group>"; };
+		5CA0FBD9274DD0C1008E5AF5 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		5CA0FBDC274DD1EB008E5AF5 /* MenuStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStore.swift; sourceTree = "<group>"; };
+		5CA0FBDE274DD7CA008E5AF5 /* ViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMenu.swift; sourceTree = "<group>"; };
 		5CF2C5E72745D3B000EC0698 /* RxSwift_MVVM_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_MVVM_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF2C5EA2745D3B000EC0698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CF2C5EC2745D3B000EC0698 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				5CA037E5274C7A2400D8AB3D /* Int+ext.swift */,
+				5CA0FBD7274DD023008E5AF5 /* UITextView+ext.swift */,
+				5CA0FBD9274DD0C1008E5AF5 /* UIViewController+ext.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -125,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				5CA037E8274C7A8D00D8AB3D /* MenuItem.swift */,
-				5CA037EA274C7C3400D8AB3D /* Menu.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -133,9 +140,18 @@
 		5CA037EC274C7C5000D8AB3D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5CA0FBDE274DD7CA008E5AF5 /* ViewMenu.swift */,
 				5CA037ED274C7E3500D8AB3D /* MenuListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5CA0FBDB274DD1D6008E5AF5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0FBDC274DD1EB008E5AF5 /* MenuStore.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		5CF2C5DE2745D3B000EC0698 = {
@@ -164,7 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				5CA037E4274C7A1100D8AB3D /* Utils */,
-				5CF2C61D2746065500EC0698 /* Services */,
+				5CF2C61D2746065500EC0698 /* Network */,
+				5CA0FBDB274DD1D6008E5AF5 /* Domain */,
 				5CA037E7274C7A8000D8AB3D /* Model */,
 				5CA037EC274C7C5000D8AB3D /* ViewModel */,
 				5CF2C61A2746062700EC0698 /* View */,
@@ -203,12 +220,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		5CF2C61D2746065500EC0698 /* Services */ = {
+		5CF2C61D2746065500EC0698 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				5CF2C61E2746066300EC0698 /* APIService.swift */,
 			);
-			path = Services;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		5CF2C6202746066A00EC0698 /* Cell */ = {
@@ -506,10 +523,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF2C5EF2745D3B000EC0698 /* MenuVC.swift in Sources */,
+				5CA0FBDA274DD0C1008E5AF5 /* UIViewController+ext.swift in Sources */,
+				5CA0FBD8274DD023008E5AF5 /* UITextView+ext.swift in Sources */,
 				5CF2C61F2746066300EC0698 /* APIService.swift in Sources */,
+				5CA0FBDD274DD1EB008E5AF5 /* MenuStore.swift in Sources */,
 				5CF2C61C2746064F00EC0698 /* OrderVC.swift in Sources */,
+				5CA0FBDF274DD7CA008E5AF5 /* ViewMenu.swift in Sources */,
 				5CF2C6222746068300EC0698 /* MenuItemCell.swift in Sources */,
-				5CA037EB274C7C3400D8AB3D /* Menu.swift in Sources */,
 				5CF2C5EB2745D3B000EC0698 /* AppDelegate.swift in Sources */,
 				5CA037E9274C7A8D00D8AB3D /* MenuItem.swift in Sources */,
 				5CF2C5ED2745D3B000EC0698 /* SceneDelegate.swift in Sources */,
