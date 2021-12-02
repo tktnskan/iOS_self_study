@@ -2,7 +2,7 @@
 //  SwiftUITutorialTests.swift
 //  SwiftUITutorialTests
 //
-//  Created by HotelShilla on 2021/08/04.
+//  Created by GJC03280 on 2021/12/01.
 //
 
 import XCTest

@@ -2,18 +2,16 @@
 //  SwiftUITutorialApp.swift
 //  SwiftUITutorial
 //
-//  Created by HotelShilla on 2021/08/04.
+//  Created by GJC03280 on 2021/12/01.
 //
 
 import SwiftUI
 
 @main
 struct SwiftUITutorialApp: App {
-    let game = EmojiMemoryGame()
-    
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: game)
+            ContentView()
         }
     }
 }
