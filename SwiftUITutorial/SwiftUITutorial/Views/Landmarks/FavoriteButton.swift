@@ -2,7 +2,7 @@
 //  FavoriteButton.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/12/03.
+//  Created by Jinyung Yoon on 2021/12/03.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ProfileSummary.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/12/08.
+//  Created by Jinyung Yoon on 2021/12/08.
 //
 
 import SwiftUI

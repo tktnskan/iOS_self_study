@@ -2,7 +2,7 @@
 //  Landmark.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/12/01.
+//  Created by Jinyung Yoon on 2021/12/01.
 //
 
 import Foundation

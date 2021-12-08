@@ -2,7 +2,7 @@
 //  BadgeBackground.swift
 //  SwiftUITutorial
 //
-//  Created by GJC03280 on 2021/12/07.
+//  Created by Jinyung Yoon on 2021/12/07.
 //
 
 import SwiftUI
