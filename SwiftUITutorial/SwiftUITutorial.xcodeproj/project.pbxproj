@@ -42,6 +42,9 @@
 		5CC4C22C275F15FF0080AD9C /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC4C22B275F15FF0080AD9C /* HexagonParameters.swift */; };
 		5CC4C22E275F17450080AD9C /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC4C22D275F17450080AD9C /* BadgeBackground.swift */; };
 		5CDFA5F42759CFFC0061FB2F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDFA5F32759CFFC0061FB2F /* FavoriteButton.swift */; };
+		D176ACA92760E84F0020FF42 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176ACA82760E84F0020FF42 /* PageViewController.swift */; };
+		D176ACAB2760EADC0020FF42 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D176ACAA2760EADC0020FF42 /* FeatureCard.swift */; };
+		D185B4502760EE28003CD72C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185B44F2760EE28003CD72C /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,9 @@
 		5CC4C22B275F15FF0080AD9C /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		5CC4C22D275F17450080AD9C /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		5CDFA5F32759CFFC0061FB2F /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		D176ACA82760E84F0020FF42 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		D176ACAA2760EADC0020FF42 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		D185B44F2760EE28003CD72C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +215,7 @@
 		5C3E85E1275711C6006DED1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D176ACA52760E7700020FF42 /* PageView */,
 				5C8C63D127609CAD00D83B86 /* Profile */,
 				5C8C63CE27609C4F00D83B86 /* Category */,
 				5C8C63BD276040AE00D83B86 /* Hikes */,
@@ -273,6 +280,16 @@
 				5C8C63B927603C2D00D83B86 /* Badge.swift */,
 			);
 			path = Badges;
+			sourceTree = "<group>";
+		};
+		D176ACA52760E7700020FF42 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				D176ACA82760E84F0020FF42 /* PageViewController.swift */,
+				D176ACAA2760EADC0020FF42 /* FeatureCard.swift */,
+				D185B44F2760EE28003CD72C /* PageView.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +428,7 @@
 				5C8C63D027609C8500D83B86 /* Profile.swift in Sources */,
 				5C3E85AE2756F9EC006DED1F /* ContentView.swift in Sources */,
 				5C8C63C92760695100D83B86 /* CategoryHome.swift in Sources */,
+				D176ACAB2760EADC0020FF42 /* FeatureCard.swift in Sources */,
 				5C8C63BA27603C2D00D83B86 /* Badge.swift in Sources */,
 				5C3E85D82756FC30006DED1F /* MapView.swift in Sources */,
 				5C8C63C42760489B00D83B86 /* GraphCapsule.swift in Sources */,
@@ -424,11 +442,13 @@
 				5C8C63D327609CB900D83B86 /* ProfileHost.swift in Sources */,
 				5C8C63B827603AA300D83B86 /* RotatedBadgeSymbol.swift in Sources */,
 				5C8C63B6276036C200D83B86 /* BadgeSymbol.swift in Sources */,
+				D185B4502760EE28003CD72C /* PageView.swift in Sources */,
 				5C3E85E5275713D6006DED1F /* LandmarkList.swift in Sources */,
 				5C8C63DB2760B47100D83B86 /* ProfileEditor.swift in Sources */,
 				5C8C63C52760489B00D83B86 /* HikeDetail.swift in Sources */,
 				5C8C63C72760489B00D83B86 /* HikeView.swift in Sources */,
 				5C3E85E727572B6B006DED1F /* LandmarkDetail.swift in Sources */,
+				D176ACA92760E84F0020FF42 /* PageViewController.swift in Sources */,
 				5CC4C22E275F17450080AD9C /* BadgeBackground.swift in Sources */,
 				5C8C63D92760A98400D83B86 /* HikeBadge.swift in Sources */,
 				5C3E85D62756FB6E006DED1F /* CircleImage.swift in Sources */,
@@ -595,7 +615,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -625,7 +645,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -651,10 +671,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -676,10 +695,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -703,7 +721,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,6 +731,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hy.jn.SwiftUITutorialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -726,7 +745,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q98PMKLR6Q;
+				DEVELOPMENT_TEAM = BVN954N659;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -736,6 +755,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hy.jn.SwiftUITutorialUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
