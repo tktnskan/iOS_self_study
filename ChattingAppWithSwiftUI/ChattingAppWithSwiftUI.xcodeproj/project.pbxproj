@@ -11,13 +11,13 @@
 		5C740ABF2762F1D700CADB67 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C740ABE2762F1D700CADB67 /* LoginView.swift */; };
 		5C740AC12762F1D800CADB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C740AC02762F1D800CADB67 /* Assets.xcassets */; };
 		5C740AC42762F1D800CADB67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C740AC32762F1D800CADB67 /* Preview Assets.xcassets */; };
-		5C740AD027631ED200CADB67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C740ACF27631ED200CADB67 /* GoogleService-Info.plist */; };
 		5C7744EC276821CA0062A566 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7744EB276821CA0062A566 /* ImagePicker.swift */; };
 		5C7744EF27682C0E0062A566 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7744EE27682C0E0062A566 /* MainMessagesView.swift */; };
 		5C7744F227684B5D0062A566 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7744F127684B5D0062A566 /* FirebaseManager.swift */; };
 		5CE542AF2768504800332604 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE542AE2768504800332604 /* FirebaseAuth */; };
 		5CE542B12768504800332604 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE542B02768504800332604 /* FirebaseFirestore */; };
 		5CE542B32768504800332604 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5CE542B22768504800332604 /* FirebaseStorage */; };
+		5CE542B52768817500332604 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CE542B42768817500332604 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		5C740ABE2762F1D700CADB67 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5C740AC02762F1D800CADB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C740AC32762F1D800CADB67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C740ACF27631ED200CADB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C7744EB276821CA0062A566 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		5C7744EE27682C0E0062A566 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
 		5C7744F127684B5D0062A566 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		5CE542B42768817500332604 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				5C740ABC2762F1D700CADB67 /* ChattingAppWithSwiftUIApp.swift */,
 				5C740ABE2762F1D700CADB67 /* LoginView.swift */,
 				5C7744EB276821CA0062A566 /* ImagePicker.swift */,
+				5CE542B42768817500332604 /* GoogleService-Info.plist */,
 				5C740AC02762F1D800CADB67 /* Assets.xcassets */,
-				5C740ACF27631ED200CADB67 /* GoogleService-Info.plist */,
 				5C740AC22762F1D800CADB67 /* Preview Content */,
 			);
 			path = ChattingAppWithSwiftUI;
@@ -167,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C740AD027631ED200CADB67 /* GoogleService-Info.plist in Resources */,
+				5CE542B52768817500332604 /* GoogleService-Info.plist in Resources */,
 				5C740AC42762F1D800CADB67 /* Preview Assets.xcassets in Resources */,
 				5C740AC12762F1D800CADB67 /* Assets.xcassets in Resources */,
 			);
